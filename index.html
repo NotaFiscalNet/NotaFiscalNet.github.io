@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-br">
+</head>
+  <head>
+    <meta charset="utf-8">
+    <title>NotaFiscal.net</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/vendor-960d0d3636.css">
+    <link rel="stylesheet" href="styles/main-37e2eb9075.css">
+  </head>
+  <body ng-app="app">
+
+    <span data-ng-include="'views/sidebar.html'" ng-if="!isDocumentacao"></span>
+    <span data-ng-include="'views/sidebar-documentacao.html'" ng-if="isDocumentacao"></span>
+
+    <div class="content container">
+      <div ng-view=""></div>
+    </div>
+
+    <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-75124993-1');
+       ga('send', 'pageview');
+    </script>
+
+    <script src="scripts/vendor-fc2174ab7f.js"></script>
+    <script src="scripts/scripts-8d26c846d4.js"></script>
+</body>
+</html>
