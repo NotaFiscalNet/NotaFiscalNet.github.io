@@ -1,0 +1,471 @@
+﻿
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>
+  Class VolumeCarga
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="
+  Class VolumeCarga
+   ">
+    <meta name="generator" content="docfx 1.6.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_VolumeCarga.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.VolumeCarga%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
+              <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/VolumeCarga.cs/#L10" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="NotaFiscalNet_Core_VolumeCarga" data-uid="NotaFiscalNet.Core.VolumeCarga">
+              Class VolumeCarga
+              </h1>
+              <div class="markdown level0 summary"><p>Representa as informações de Volume da Carga.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">VolumeCarga</span></div>
+              </div>
+              <h6><strong>Namespace</strong>:NotaFiscalNet.Core</h6>
+              <h6><strong>Assembly</strong>:NotaFiscalNet.Core.dll</h6>
+              <h5 id="NotaFiscalNet_Core_VolumeCarga_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public sealed class VolumeCarga : ISerializavel, IModificavel</code></pre>
+              </div>
+              <h3 id="properties">
+              Properties
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_VolumeCarga_Especie.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.VolumeCarga.Especie%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/VolumeCarga.cs/#L38">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_VolumeCarga_Especie" data-uid="NotaFiscalNet.Core.VolumeCarga.Especie">Especie</h4>
+              <div class="markdown level1 summary"><p>[esp] Retorna ou define a Espécie dos Volumes transportados. Opcional.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(FieldName = &quot;esp&quot;, DataType = &quot;token&quot;, ID = &quot;X28&quot;, MinLength = 1, MaxLength = 60)]
+public string Especie
+{
+
+    get;
+
+    set;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_VolumeCarga_Lacres.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.VolumeCarga.Lacres%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/VolumeCarga.cs/#L106">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_VolumeCarga_Lacres" data-uid="NotaFiscalNet.Core.VolumeCarga.Lacres">Lacres</h4>
+              <div class="markdown level1 summary"><p>[lacres] Retorna uma Coleção de Lacres</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(FieldName = &quot;lacres&quot;, ID = &quot;X33&quot;, MinLength = 1, MaxLength = 60)]
+public StringCollection Lacres
+{
+
+    get;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="NotaFiscalNet.Core.StringCollection.html#NotaFiscalNet_Core_StringCollection">StringCollection</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_VolumeCarga_Marca.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.VolumeCarga.Marca%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/VolumeCarga.cs/#L51">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_VolumeCarga_Marca" data-uid="NotaFiscalNet.Core.VolumeCarga.Marca">Marca</h4>
+              <div class="markdown level1 summary"><p>[marca] Retorna ou define a Marca dos volumes transportados. Opcional.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(FieldName = &quot;marca&quot;, DataType = &quot;token&quot;, ID = &quot;X29&quot;, MinLength = 1, MaxLength = 60)]
+public string Marca
+{
+
+    get;
+
+    set;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_VolumeCarga_Modificado.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.VolumeCarga.Modificado%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/VolumeCarga.cs/#L112">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_VolumeCarga_Modificado" data-uid="NotaFiscalNet.Core.VolumeCarga.Modificado">Modificado</h4>
+              <div class="markdown level1 summary"><p>Retorna se a Classe foi modificada</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool Modificado
+{
+
+    get;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_VolumeCarga_Numeracao.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.VolumeCarga.Numeracao%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/VolumeCarga.cs/#L64">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_VolumeCarga_Numeracao" data-uid="NotaFiscalNet.Core.VolumeCarga.Numeracao">Numeracao</h4>
+              <div class="markdown level1 summary"><p>[nVol] Retorna ou define a Numeração dos volumes transportados.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(FieldName = &quot;nVol&quot;, DataType = &quot;token&quot;, ID = &quot;X30&quot;, MinLength = 1, MaxLength = 60)]
+public string Numeracao
+{
+
+    get;
+
+    set;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_VolumeCarga_PesoBruto.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.VolumeCarga.PesoBruto%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/VolumeCarga.cs/#L92">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_VolumeCarga_PesoBruto" data-uid="NotaFiscalNet.Core.VolumeCarga.PesoBruto">PesoBruto</h4>
+              <div class="markdown level1 summary"><p>[pesoB] Retorna ou define o Peso Bruto (em kg) do Volume.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(FieldName = &quot;pesoB&quot;, DataType = &quot;TDec_1203&quot;, ID = &quot;X32&quot;, Pattern = &quot;0|0\\.[0-9]{3}|[1-9]{1}[0-9]{0,11}(\\.[0-9]{3})?&quot;)]
+public decimal PesoBruto
+{
+
+    get;
+
+    set;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Decimal</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_VolumeCarga_PesoLiquido.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.VolumeCarga.PesoLiquido%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/VolumeCarga.cs/#L77">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_VolumeCarga_PesoLiquido" data-uid="NotaFiscalNet.Core.VolumeCarga.PesoLiquido">PesoLiquido</h4>
+              <div class="markdown level1 summary"><p>[pesoL] Retorna ou define o Peso Líquido (em kg) do Volume.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(FieldName = &quot;pesoL&quot;, DataType = &quot;TDec_1203&quot;, ID = &quot;X31&quot;, Pattern = &quot;0|0\\.[0-9]{3}|[1-9]{1}[0-9]{0,11}(\\.[0-9]{3})?&quot;)]
+public decimal PesoLiquido
+{
+
+    get;
+
+    set;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Decimal</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_VolumeCarga_QuantidadeVolumes.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.VolumeCarga.QuantidadeVolumes%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/VolumeCarga.cs/#L24">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_VolumeCarga_QuantidadeVolumes" data-uid="NotaFiscalNet.Core.VolumeCarga.QuantidadeVolumes">QuantidadeVolumes</h4>
+              <div class="markdown level1 summary"><p>[qVol] Retorna ou define a Quantidade de Volumes transportados (valor máximo
+999999999999999). Opcional.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(FieldName = &quot;qVol&quot;, DataType = &quot;token&quot;, ID = &quot;X27&quot;, Pattern = &quot;[0-9]{1,15}&quot;)]
+public long QuantidadeVolumes
+{
+
+    get;
+
+    set;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int64</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">
+              Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_VolumeCarga_NotaFiscalNet_Core_Interfaces_ISerializavel_Serializar_System_Xml_XmlWriter_NotaFiscalNet_Core_INFe_.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.VolumeCarga.NotaFiscalNet%23Core%23Interfaces%23ISerializavel%23Serializar(System.Xml.XmlWriter%2CNotaFiscalNet.Core.INFe)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/VolumeCarga.cs/#L120">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_VolumeCarga_NotaFiscalNet_Core_Interfaces_ISerializavel_Serializar_System_Xml_XmlWriter_NotaFiscalNet_Core_INFe_" data-uid="NotaFiscalNet.Core.VolumeCarga.NotaFiscalNet#Core#Interfaces#ISerializavel#Serializar(System.Xml.XmlWriter,NotaFiscalNet.Core.INFe)">ISerializavel.Serializar(XmlWriter, INFe)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">void ISerializavel.Serializar(XmlWriter writer, INFe nfe)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Xml.XmlWriter</span></td>
+                    <td><em>writer</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="NotaFiscalNet.Core.INFe.html#NotaFiscalNet_Core_INFe">INFe</a></td>
+                    <td><em>nfe</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Voltar ao topo</a>
+            </span>
+            <span>Copyright © 2016 NotaFiscal.net<br>Gerado por <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>

@@ -1,0 +1,578 @@
+﻿
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>
+  Class ImpostoProduto
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="
+  Class ImpostoProduto
+   ">
+    <meta name="generator" content="docfx 1.6.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
+              <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L11" class="btn btn-primary pull-right mobile-hide">View Source</a>
+              <h1 id="NotaFiscalNet_Core_ImpostoProduto" data-uid="NotaFiscalNet.Core.ImpostoProduto">
+              Class ImpostoProduto
+              </h1>
+              <div class="markdown level0 summary"><p>Representa os Tributos incidentes no Produto ou Serviço</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">ImpostoProduto</span></div>
+              </div>
+              <h6><strong>Namespace</strong>:NotaFiscalNet.Core</h6>
+              <h6><strong>Assembly</strong>:NotaFiscalNet.Core.dll</h6>
+              <h5 id="NotaFiscalNet_Core_ImpostoProduto_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public sealed class ImpostoProduto : ISerializavel, IModificavel</code></pre>
+              </div>
+              <h3 id="properties">
+              Properties
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto_COFINS.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto.COFINS%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L113">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_ImpostoProduto_COFINS" data-uid="NotaFiscalNet.Core.ImpostoProduto.COFINS">COFINS</h4>
+              <div class="markdown level1 summary"><p>Retorna o COFINS</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(ID = &quot;S01&quot;, FieldName = &quot;COFINS&quot;)]
+[CampoValidavel(7, ChaveErroValidacao.CampoNaoPreenchido)]
+public ImpostoCOFINS COFINS
+{
+
+    get;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="NotaFiscalNet.Core.ImpostoCOFINS.html#NotaFiscalNet_Core_ImpostoCOFINS">ImpostoCOFINS</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto_COFINSST.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto.COFINSST%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L120">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_ImpostoProduto_COFINSST" data-uid="NotaFiscalNet.Core.ImpostoProduto.COFINSST">COFINSST</h4>
+              <div class="markdown level1 summary"><p>Retorna o COFINS ST. Opcional.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(ID = &quot;T01&quot;, FieldName = &quot;COFINSST&quot;)]
+[CampoValidavel(8, Opcional = true)]
+public ImpostoCOFINSST COFINSST
+{
+
+    get;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="NotaFiscalNet.Core.ImpostoCOFINSST.html#NotaFiscalNet_Core_ImpostoCOFINSST">ImpostoCOFINSST</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto_Icms.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto.Icms%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L57">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_ImpostoProduto_Icms" data-uid="NotaFiscalNet.Core.ImpostoProduto.Icms">Icms</h4>
+              <div class="markdown level1 summary"><p>Retorna ou define o imposto ICMS sendo empregado no produto.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Icms Icms
+{
+
+    get;
+
+    set;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="NotaFiscalNet.Core.Icms.html#NotaFiscalNet_Core_Icms">Icms</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto_ICMS.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto.ICMS%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L70">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_ImpostoProduto_ICMS" data-uid="NotaFiscalNet.Core.ImpostoProduto.ICMS">ICMS</h4>
+              <div class="markdown level1 summary"><p>Retorna o ICMS</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[Obsolete(&quot;Usar o campos Icms.&quot;)]
+[NFeField(ID = &quot;N01&quot;, FieldName = &quot;ICMS&quot;)]
+[CampoValidavel(1, Opcional = true)]
+public ImpostoICMS ICMS
+{
+
+    get;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="NotaFiscalNet.Core.ImpostoICMS.html#NotaFiscalNet_Core_ImpostoICMS">ImpostoICMS</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto_II.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto.II%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L85">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_ImpostoProduto_II" data-uid="NotaFiscalNet.Core.ImpostoProduto.II">II</h4>
+              <div class="markdown level1 summary"><p>Retorna o II (Imposto de Importação). Opcional.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(ID = &quot;P01&quot;, FieldName = &quot;II&quot;, Opcional = true)]
+[CampoValidavel(3, Opcional = true)]
+public ImpostoII II
+{
+
+    get;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="NotaFiscalNet.Core.ImpostoII.html#NotaFiscalNet_Core_ImpostoII">ImpostoII</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto_IPI.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto.IPI%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L78">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_ImpostoProduto_IPI" data-uid="NotaFiscalNet.Core.ImpostoProduto.IPI">IPI</h4>
+              <div class="markdown level1 summary"><p>Retorna o valor representando as informações de declaração do IPI para o produto. Opcional.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(ID = &quot;O01&quot;, FieldName = &quot;IPI&quot;, Opcional = true)]
+[CampoValidavel(2, Opcional = true)]
+public ImpostoIPI IPI
+{
+
+    get;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="NotaFiscalNet.Core.ImpostoIPI.html#NotaFiscalNet_Core_ImpostoIPI">ImpostoIPI</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto_ISSQN.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto.ISSQN%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L92">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_ImpostoProduto_ISSQN" data-uid="NotaFiscalNet.Core.ImpostoProduto.ISSQN">ISSQN</h4>
+              <div class="markdown level1 summary"><p>Retorna o ISSQN</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(ID = &quot;U01&quot;, FieldName = &quot;ISSQN&quot;)]
+[CampoValidavel(4, Opcional = true)]
+public ImpostoISSQN ISSQN
+{
+
+    get;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="NotaFiscalNet.Core.ImpostoISSQN.html#NotaFiscalNet_Core_ImpostoISSQN">ImpostoISSQN</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto_Modificado.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto.Modificado%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L132">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_ImpostoProduto_Modificado" data-uid="NotaFiscalNet.Core.ImpostoProduto.Modificado">Modificado</h4>
+              <div class="markdown level1 summary"><p>Retorna se a Classe foi modificada</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool Modificado
+{
+
+    get;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto_PIS.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto.PIS%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L99">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_ImpostoProduto_PIS" data-uid="NotaFiscalNet.Core.ImpostoProduto.PIS">PIS</h4>
+              <div class="markdown level1 summary"><p>Retorna as informações do PIS (Programa de Integração Social).</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(ID = &quot;Q01&quot;, FieldName = &quot;PIS&quot;)]
+[CampoValidavel(5, ChaveErroValidacao.CampoNaoPreenchido)]
+public ImpostoPIS PIS
+{
+
+    get;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="NotaFiscalNet.Core.ImpostoPIS.html#NotaFiscalNet_Core_ImpostoPIS">ImpostoPIS</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto_PISST.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto.PISST%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L106">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_ImpostoProduto_PISST" data-uid="NotaFiscalNet.Core.ImpostoProduto.PISST">PISST</h4>
+              <div class="markdown level1 summary"><p>Retorna o PIS ST. Opcional.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(ID = &quot;R01&quot;, FieldName = &quot;PISST&quot;, Opcional = true)]
+[CampoValidavel(6, Opcional = true)]
+public ImpostoPISST PISST
+{
+
+    get;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="NotaFiscalNet.Core.ImpostoPISST.html#NotaFiscalNet_Core_ImpostoPISST">ImpostoPISST</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto_ValorTotalTributos.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto.ValorTotalTributos%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L42">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_ImpostoProduto_ValorTotalTributos" data-uid="NotaFiscalNet.Core.ImpostoProduto.ValorTotalTributos">ValorTotalTributos</h4>
+              <div class="markdown level1 summary"><p>[vTotTrib] Retorna ou define o valor estimado total de impostos federais, estaduais e municipais.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[NFeField(FieldName = &quot;vTotTrib&quot;, DataType = &quot;TDec_1302&quot;)]
+public decimal ? ValorTotalTributos
+{
+
+    get;
+
+    set;
+
+}</code></pre>
+              </div>
+              <h5 class="propertyValue">Proverty Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Decimal</span>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">
+              Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/new/docs/docs/src/apispec/new?filename=NotaFiscalNet_Core_ImpostoProduto_NotaFiscalNet_Core_Interfaces_ISerializavel_Serializar_System_Xml_XmlWriter_NotaFiscalNet_Core_INFe_.md&amp;value=---%0Auid%3A%20NotaFiscalNet.Core.ImpostoProduto.NotaFiscalNet%23Core%23Interfaces%23ISerializavel%23Serializar(System.Xml.XmlWriter%2CNotaFiscalNet.Core.INFe)%0Aremarks%3A%20'*THIS*%20is%20remarks%20overriden%20in%20*MARKDOWN*%20file'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/docs/src/NotaFiscalNet.Core/ImpostoProduto.cs/#L141">View Source</a>
+              </span>
+              <h4 id="NotaFiscalNet_Core_ImpostoProduto_NotaFiscalNet_Core_Interfaces_ISerializavel_Serializar_System_Xml_XmlWriter_NotaFiscalNet_Core_INFe_" data-uid="NotaFiscalNet.Core.ImpostoProduto.NotaFiscalNet#Core#Interfaces#ISerializavel#Serializar(System.Xml.XmlWriter,NotaFiscalNet.Core.INFe)">ISerializavel.Serializar(XmlWriter, INFe)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">void ISerializavel.Serializar(XmlWriter writer, INFe nfe)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Xml.XmlWriter</span></td>
+                    <td><em>writer</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="NotaFiscalNet.Core.INFe.html#NotaFiscalNet_Core_INFe">INFe</a></td>
+                    <td><em>nfe</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+            <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Voltar ao topo</a>
+            </span>
+            <span>Copyright © 2016 NotaFiscal.net<br>Gerado por <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
