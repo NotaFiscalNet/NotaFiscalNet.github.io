@@ -10,7 +10,7 @@
     <title>Use a NotaFiscal.net no Visual Studio | NotaFiscal.net </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Use a NotaFiscal.net no Visual Studio | NotaFiscal.net ">
-    <meta name="generator" content="docfx 1.6.1.0">
+    <meta name="generator" content="docfx 2.0.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -67,11 +67,18 @@
         </div>
       </div>
       <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
+        
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Mostrar / Esconder o índice</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
               <!--
-              <a href="https://github.com/NotaFiscalNet/NotaFiscalNet/blob/0ebd88ce7959e132d12c68dc1e5e735ace0b0dad/docs/src/docs/iniciando.md/#L1" class="btn btn-primary pull-right mobile-hide">Improve this Doc</a>
               -->
               <h2 id="use-a-notafiscal-net-no-visual-studio">Use a <em>NotaFiscal.net</em> no Visual Studio</h2>
               
@@ -79,7 +86,7 @@
 <p>Como pré-requisito, você precisa do <a href="https://www.visualstudio.com/downloads/download-visual-studio-vs">Visual Studio 2015</a> para iniciar um projeto de <em>Documentos Fiscais</em>.</p>
 <p><em>Passo 1.</em> Instale o pacote Nuget <code>NotaFiscalNet.Core</code> no <em>Package Manager Console</em>:</p>
 <pre><code>Install-Package NotaFiscalNet.Core
-</code></pre><p><em>Passo 2.</em> Instancie um objeto do tipo <em>NFe</em> e comece a preencher as propriedades para geração do <em>xml</em>. Use os <a href="docs/http:/">tutoriais</a> disponíveis para auxílio sobre o que preencher, ou a <a href="docs/http:/">documentação</a> se tiver dúvidas técnicas sobre cada campo.</p>
+</code></pre><p><em>Passo 2.</em> Instancie um objeto do tipo <em>NFe</em> e comece a preencher as propriedades para geração do <em>xml</em>. Use os <a href="http://">tutoriais</a> disponíveis para auxílio sobre o que preencher, ou a <a href="http://">documentação</a> se tiver dúvidas técnicas sobre cada campo.</p>
 <pre><code>using NotaFiscalNet.Core;
 
 var nfe = new NFe();
@@ -97,7 +104,7 @@ var produto = new Produto();
 produto.Codigo = &quot;1&quot;;
 produto.Descricao = &quot;Produto 1&quot;;
 nfe.Itens.Add(produto);
-</code></pre><p><em>Passo 3.</em> Execute a validação dos dados informados, para garantir que o <em>xml</em> gerado passe por todas as regras necessárias para o envio. Se houver erros, é neste instante que você poderá avaliar o <a href="docs/http:/">resultado</a> que dirá exatamente o que precisa ser informado.</p>
+</code></pre><p><em>Passo 3.</em> Execute a validação dos dados informados, para garantir que o <em>xml</em> gerado passe por todas as regras necessárias para o envio. Se houver erros, é neste instante que você poderá avaliar o <a href="http://">resultado</a> que dirá exatamente o que precisa ser informado.</p>
 <pre><code>ResultadoValidacao resultado = nfe.Validar();
 </code></pre><p><em>Passo 4.</em> Gere o <em>xml</em>!</p>
 <pre><code>string xml = nfe.Serializar();
@@ -132,5 +139,14 @@ nfe.Itens.Add(produto);
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-  </body>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-75124993-1', 'auto');
+      ga('send', 'pageview');
+    
+    </script>  </body>
 </html>
